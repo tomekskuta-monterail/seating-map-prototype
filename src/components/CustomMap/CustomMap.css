@@ -1,0 +1,23 @@
+.custom-map-root {
+  width: 100%;
+}
+
+.custom-map-root svg {
+  width: 100%;
+}
+
+.active-sector,
+.active-sector * {
+  fill: #8dc6a8 !important;
+  cursor: pointer;
+}
+
+.checked-sector,
+.checked-sector * {
+  fill: #cfb36c !important;
+}
+
+.hovered-sector,
+.hovered-sector * {
+  fill: #cfb36c !important;
+}
